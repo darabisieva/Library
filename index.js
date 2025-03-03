@@ -48,7 +48,6 @@ function toggleRead(index) {
   displayBooks();
 }
 
-// Форма для добавления книги
 const form = document.getElementById("form-view");
 form.innerHTML = `
   <form id="bookForm">
